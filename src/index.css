@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-background: #FFFFFF; /* Branco */
+  --color-primary: #4B5563; /* Branco */
+  --color-secondary: #000000; /* Preto */
+  --color-accent: #0284c7; /* Azul claro */
+  --color-tertiary: #164e63; /* Azul escuro */
+  --color-shadow: rgba(128, 115, 128, 1);
+  
+
+  
+  --font-sans: 'Helvetica', 'Arial', 'sans-serif';
+  --font-serif: 'Georgia', 'serif';
+  --font-mono: 'Menlo', 'Monaco', 'monospace';
+  
+  --font-size-base: 16px; /* Tamanho base da fonte */
+  --font-size-lg: 18px; /* Tamanho grande da fonte */
+  --font-size-sm: 14px; /* Tamanho pequeno da fonte */
+
+  /* Títulos */
+--font-size-h1: 32px; /* Título principal */
+--font-size-h2: 28px; /* Subtítulo de primeira ordem */
+--font-size-h3: 24px; /* Subtítulo de segunda ordem */
+--font-size-h4: 20px; /* Subtítulo de terceira ordem */
+--font-size-h5: 18px; /* Subtítulo de quarta ordem */
+--font-size-h6: 16px; /* Subtítulo de quinta ordem */
+  
+  --border-radius: 2px; /* Bordas arredondadas */
+}
+
+/* Tema escuro */
+[data-theme='dark'] {
+  --color-background: #1F2937;
+  --color-primary:  #9CA3AF; /* Cinza claro */
+  --color-secondary: #FFFFFF; 
+  --color-accent: #164e63; /* Amarelo */
+  --color-tertiary: #0284c7; /* Cor adicional, como solicitado */
+  --color-shadow: rgba(32, 31, 31, 0.7);
+  
+  --font-sans: 'Helvetica', 'Arial', 'sans-serif';
+  --font-serif: 'Georgia', 'serif';
+  --font-mono: 'Menlo', 'Monaco', 'monospace';
+  
+  --font-size-base: 16px;
+  --font-size-lg: 18px;
+  --font-size-sm: 14px;
+  
+  --font-size-h1: 32px; /* Título principal */
+  --font-size-h2: 28px; /* Subtítulo de primeira ordem */
+  --font-size-h3: 24px; /* Subtítulo de segunda ordem */
+  --font-size-h4: 20px; /* Subtítulo de terceira ordem */
+  --font-size-h5: 18px; /* Subtítulo de quarta ordem */
+  --font-size-h6: 16px; /* Subtítulo de quinta ordem */
+  
+  --border-radius: 4px;
+}
+
+
