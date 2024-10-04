@@ -1,5 +1,5 @@
+import { Link } from "react-router-dom";
 import burguer from "../../assets/burguer.jpg";
-import ToggleButton from "../../components/toggle";
 import { useTheme } from "../../contexts/ThemeContext";
 
 
@@ -40,14 +40,14 @@ function App() {
                     required
                     className="border border-gray-300 bg-transparent placeholder:text-primary placeholder:opacity-100 p-2 rounded-sm w-4/5"/>
             </div>
+            <div className="flex justify-center w-4/5">
+                <Link className="text-primary mr-2 w-1/2 text-left hover:text-accent" to="/criar-conta">Cadastre-se</Link>
+            </div>
             <div className=" flex justify-center items-center w-3/4">
                 <button className="w-3/5 bg-accent text-white border border-accent rounded-sm py-2 px-4 hover:bg-tertiary hover:border-tertiary focus:outline-none focus:ring-2 focus:ring-blue-300"
                   type="submit">Entrar</button>
             </div>
         </form>
-
-        
-      <ToggleButton />
     
       </div>
     </div>
